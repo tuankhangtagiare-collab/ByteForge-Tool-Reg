@@ -1,0 +1,9 @@
+tls-client==1.0.0
+requests==2.31.0
+colorama==0.4.6
+pydantic==2.5.0
+Pillow==10.1.0
+numpy==1.24.3
+opencv-python-headless==4.8.1.78
+onnxruntime==1.16.3
+PySocks==1.7.1
