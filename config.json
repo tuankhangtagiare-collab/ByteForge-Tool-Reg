@@ -1,0 +1,33 @@
+{
+    "proxy": {
+        "api_key_vn": "",
+        "api_key_xoay": "",
+        "use_file": true,
+        "file_path": "proxy.txt",
+        "proxy_type": "all"
+    },
+    "captcha": {
+        "service": "internal",
+        "api_key": "",
+        "max_retries": 3,
+        "timeout": 180
+    },
+    "email": {
+        "api_key": "",
+        "use_temp_mail": false,
+        "verification_timeout": 120
+    },
+    "account": {
+        "avatar_enabled": true,
+        "bio_enabled": false,
+        "username_prefix": "",
+        "username_suffix": ""
+    },
+    "settings": {
+        "threads": 3,
+        "accounts_to_create": 10,
+        "delay_between_accounts": 0.5,
+        "retry_failed": 2,
+        "save_format": "email:pass:token:timestamp"
+    }
+}
